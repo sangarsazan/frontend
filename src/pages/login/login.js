@@ -7,20 +7,20 @@ import Button from "../../components/button";
 const LoginPage = () => {
     return (
         <div>
-            <div style={{padding: "20px 10px 0 0"}}>
-                <ButtonArrow style={{color:"black"}} className={Styles.btnForward}><ArrowForwardIcon fontSize="medium"/></ButtonArrow>
+            <div className={Styles.arrowbtnwrapper}>
+                <ButtonArrow className={Styles.btnForward} style={{color: "black"}}><ArrowForwardIcon fontSize="medium"/></ButtonArrow>
             </div>
 
-             <div>
-                 <Typography className={Styles.Welcome} variant="h4" fontWeight="bold">خوش برگشتی!</Typography>
+             <div className={Styles.titre}>
+                 <h1>خوش برگشتی!</h1>
              </div>
 
-            <div>
-                 <Typography variant="h5" style={{textAlign: "center" , padding: "20px"}}>برای ورود ، اطلاعات زیر را وارد کنید</Typography>
+            <div className={Styles.caption}>
+                 <h5>برای ورود ، اطلاعات زیر را وارد کنید</h5>
             </div>
 
             <div className={Styles.phone}>
-                <TextField id="outlined-basic" label="شماره تلفن" variant="outlined" style={{textAlign:"left"}}/>
+                <TextField id="outlined-basic" label="شماره تلفن" variant="outlined" style={{}}/>
             </div>
 
             <div style={{display: "flex", justifyContent: "center"}}>
@@ -28,7 +28,7 @@ const LoginPage = () => {
             </div>
 
             <div style={{display: "flex", justifyContent: "center"}}>
-                <Button className={Styles.button} text={'ورود'}></Button>
+                <Button className={Styles.button} text={'ورود'} sx={{width: ".5rem"}}></Button>
             </div>
 
         </div>
