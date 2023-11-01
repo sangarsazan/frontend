@@ -1,11 +1,10 @@
 import React from 'react';
 import CloseIcon from '@mui/icons-material/Close';
-const StartHeader = (headerTitle) => {
+const StartHeader = ({text}) => {
     return (
         <>
-            <div>
-                <svg data-testid="CloseIcon"></svg>{headerTitle}
-            </div>
+                <svg data-testid={CloseIcon}></svg>
+                <span>{text}</span>
         </>
     );
 };
