@@ -4,17 +4,21 @@
     padding-top: 50px;
 }
 
-.forward {
-    box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
-    color: black;
+.btnForward{
 }
 .btnForward:hover{
     color: black;
     border-radius: 100%;
 }
 
-.rtlTextfield {
-    left: inherit !important;
-    right: 1.75rem !important;
-    transform-origin: right !important;
+.button {
+    background-color: var(--lightBlue);
+    color: white;
+    margin: 50px 0 0 0;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 15px 0;
 }
