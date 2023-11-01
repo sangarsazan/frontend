@@ -5,7 +5,7 @@ const StartPage = () => {
     return (
         <>
             <img className={Styles.logo} src={'#'} alt={"logo"}/>
-
+            <p></p>
         </>
     );
 };

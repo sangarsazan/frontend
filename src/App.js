@@ -7,6 +7,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path='/start' element={<StartPage/>}/>
+
             </Routes>
         </Router>
     </div>
