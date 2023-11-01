@@ -5,7 +5,7 @@ const StartHeader = ({text}) => {
     return (
         <>
             <div style={{display: "flex"}}>
-                <svg data-testid={CloseIcon}></svg>
+                <CloseIcon/>
                 <span>{text}</span>
             </div>
         </>
