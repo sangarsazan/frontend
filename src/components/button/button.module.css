@@ -1,0 +1,11 @@
+.button {
+    width: 20rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.8rem;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    transition: all .1s;
+}

@@ -1,11 +1,13 @@
 import React from 'react';
-import Button from "@mui/material/Button";
-const ButtonWeb = () => {
+import Styles from './button.module.css'
+const Button = ({text ,className}) => {
     return (
         <div>
-            <Button variant='contained'></Button>
+            <button className={Styles.button +" "+ className}>
+                {text}
+            </button>
         </div>
     );
 };
 
-export default ButtonWeb;
+export default Button;
