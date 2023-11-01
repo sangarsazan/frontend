@@ -1,6 +1,9 @@
 import StartPage from "./pages/start";
 import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
 import LoginPage from "./pages/login/login";
+import './styles/global.css'
+import './styles/variable.css'
+import './styles/font.css'
 
 function App() {
   return (
