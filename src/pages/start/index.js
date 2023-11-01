@@ -1,7 +1,7 @@
 import React from 'react';
-import Styles from './signup.module.css'
+import Styles from './start.module.css'
 
-const startPage = () => {
+const StartPage = () => {
     return (
         <>
             <img className={Styles.logo} src={'#'} alt={"logo"}/>
@@ -10,4 +10,4 @@ const startPage = () => {
     );
 };
 
-export default startPage;
+export default StartPage;
