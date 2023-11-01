@@ -1,5 +1,5 @@
 import React from 'react';
-import {TextField, Typography} from "@mui/material";
+import {Link, TextField} from "@mui/material";
 import Styles from "./login.module.css";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ButtonArrow from "@mui/material/Button";
@@ -31,6 +31,9 @@ const LoginPage = () => {
                 <Button className={Styles.button} text={'ورود'} sx={{width: ".5rem"}}></Button>
             </div>
 
+            <div>
+                <Link href="/" underline="always" style={{marginRight: "4.8rem", marginTop: "2rem"}}>رمز عبورم رو فراموش کردم</Link>
+            </div>
         </div>
     );
 };
