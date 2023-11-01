@@ -25,7 +25,7 @@ p {
     color: white;
 }
 .button {
-    background-color: #0088FF;
+    background-color: var(--lightBlue);
     color: white;
     margin: 1rem ;
 }
