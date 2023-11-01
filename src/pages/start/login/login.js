@@ -3,7 +3,7 @@ import {Link, TextField} from "@mui/material";
 import Styles from "./login.module.css";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ButtonArrow from "@mui/material/Button";
-import Button from "../../components/button";
+import Button from "../../../components/button";
 const LoginPage = () => {
     return (
         <div>
