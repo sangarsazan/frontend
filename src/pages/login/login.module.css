@@ -46,4 +46,7 @@
 
 .a {
     text-decoration: none;
+    color: #0088FF;
+    text-underline-offset: .5rem;
+    margin: 15px;
 }

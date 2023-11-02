@@ -1,27 +1,29 @@
 import Styles from './home.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faPowerOff, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import Slider from '../../components/slider/slider'
 
 const HomePage = () => {
+
     return (
-        <>
+        <div className={Styles.wrapper}>
             <div>
 
             </div>
             <div className={Styles.wrapperButton}>
-                <button>
-
+                <button className={Styles.buttonRight}>
+                    <FontAwesomeIcon icon={faPowerOff} />
                     <span>آماده نیستم!</span>
                 </button>
-                <button>
-
+                <button className={Styles.buttonLeft}>
+                    <FontAwesomeIcon icon={faMagnifyingGlass} />
                     <span>بررسی اطراف</span>
                 </button>
             </div>
-            <div>
-                <img src={require('../../assets/images/banner-bmi.png')}/>
+            <div className={Styles.image}>
+                <Slider/>
             </div>
-        </>
+        </div>
     );
 };
 
