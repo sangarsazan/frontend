@@ -8,6 +8,7 @@ import SplashScreen from './pages/splashScreen'
 import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
 import SportPage from "./pages/sports";
 import MembersPage from "./pages/members/membersPage";
+import HomePage from "./pages/home";
 function App () {
   return (
           <div className="App">
@@ -19,6 +20,8 @@ function App () {
                       <Route path="/signUp" element={<SignupPage/>}/>
                       <Route path="/sports" element={<SportPage/>}/>
                       <Route path="/members" element={<MembersPage/>}/>
+                      <Route path="/home" element={<HomePage/>}/>
+
                   </Routes>
               </Router>
           </div>
