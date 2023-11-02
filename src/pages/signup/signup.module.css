@@ -1,4 +1,26 @@
 .container {
     width: 80%;
-    margin:0 auto;
+    margin:2rem auto 0 auto;
+}
+h2 {
+    font-family: secondaryFonde;
+    margin-top: 4rem;
+}
+.wrapperRadio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input {
+    width: 17rem;
+}
+.wrapperInput .input {
+    width: 50%
+}
+.wrapperInput {
+    display: flex;
+}
+.radio {
+    background-color: #757575;
+    padding: 3rem .5rem 3rem 7rem;
 }
