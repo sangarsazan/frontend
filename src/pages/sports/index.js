@@ -8,7 +8,7 @@ import StepBar from "../../components/stepBar";
 
 const SportPage = () => {
     return (
-        <>
+        <div className={Styles.container}>
             <ButtonArrow className={Styles.btnForward} sx={{mt:1.4 ,}}><ArrowForwardIcon/></ButtonArrow>
             <div className={Styles.progressBar}>
                 <StepBar variant="determinate" value={"50"} />
@@ -46,7 +46,7 @@ const SportPage = () => {
             <div className={Styles.btnWrapper}>
                 <Button className={Styles.btn} text={"دیگه تمومه!"}/>
             </div>
-        </>
+        </div>
 
     );
 };
