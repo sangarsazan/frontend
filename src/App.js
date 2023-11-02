@@ -8,7 +8,7 @@ import SplashScreen from './pages/splashScreen'
 import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
 import SportPage from "./pages/sports";
 import StepBar from "./components/stepBar";
-
+import HomePage from "./pages/home"
 
 
 function App () {
@@ -22,6 +22,7 @@ function App () {
                       <Route path="/signUp" element={<SignupPage/>}/>
                       <Route path="/sports" element={<SportPage/>}/>
                       <Route path="/stepbar" element={<StepBar/>}/>
+                      <Route path="/home" element={<HomePage/>}/>
 
                   </Routes>
               </Router>
