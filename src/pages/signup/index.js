@@ -6,7 +6,10 @@ import StepBar from '../../components/stepBar';
 const SignupPages = () => {
     return (
         <div className={Styles.container}>
-            <StepBar/>
+
+            <div>
+                <StepBar variant="determinate" value={"50"} />
+            </div>
         </div>
     );
 };

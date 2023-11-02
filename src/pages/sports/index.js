@@ -2,17 +2,49 @@ import React from 'react';
 import ButtonArrow from "@mui/material/Button";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Styles from "../sports/sports.module.css";
-import {Checkbox, FormControlLabel} from "@mui/material";
+import {Checkbox, FormControlLabel, LinearProgress} from "@mui/material";
+import Button from "../../components/button";
+import StepBar from "../../components/stepBar";
 
 const SportPage = () => {
     return (
         <>
             <ButtonArrow className={Styles.btnForward} sx={{mt:1.4 ,}}><ArrowForwardIcon/></ButtonArrow>
-            <p className={Styles.title}>سلامتی همه ورزشکارا صلوات!</p>
-            <p className={Styles.caption}>با چه ورزشی سر کیفی عزیز؟</p>
-            <div className={Styles.boxes}>
-                <FormControlLabel className={Styles.box1} control={<Checkbox />} label="فوتبال" />
-                <br />
+            <div className={Styles.progressBar}>
+                <StepBar variant="determinate" value={"50"} />
+            </div>
+            <div>
+                <p className={Styles.title}>سلامتی همه ورزشکارا صلوات!</p>
+            </div>
+            <div>
+                <p className={Styles.caption}>با چه ورزشی سر کیفی عزیز؟</p>
+            </div>
+            <div>
+                <div className={Styles.boxes}>
+                    <FormControlLabel className={Styles.box1} control={<Checkbox />} label="فوتبال" />
+                </div>
+                <div className={Styles.boxes}>
+                    <FormControlLabel className={Styles.box1} control={<Checkbox />} label="تناسب اندام" />
+                </div>
+                <div className={Styles.boxes}>
+                    <FormControlLabel className={Styles.box1} control={<Checkbox />} label="پیاده روی" />
+                </div>
+                <div className={Styles.boxes}>
+                    <FormControlLabel className={Styles.box1} control={<Checkbox />} label="هنرهای رزمی" />
+                </div>
+                <div className={Styles.boxes}>
+                    <FormControlLabel className={Styles.box1} control={<Checkbox />} label="دوچرخه سواری" />
+                </div>
+                <div className={Styles.boxes}>
+                    <FormControlLabel className={Styles.box1} control={<Checkbox />} label="تنیس روی میز" />
+                </div>
+                <div className={Styles.boxes}>
+                    <FormControlLabel className={Styles.box1} control={<Checkbox />} label="کوهنوردی" />
+                </div>
+            </div>
+
+            <div className={Styles.btnWrapper}>
+                <Button className={Styles.btn} text={"دیگه تمومه!"}/>
             </div>
         </>
 

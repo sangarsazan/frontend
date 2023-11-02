@@ -1,12 +1,16 @@
 * {
     font-family: mainFont!important;
 }
+
 .title {
     color: #022554;
+    text-align: center;
+    font-weight: bold;
 }
 
 .caption {
-    color: #757575
+    color: #757575;
+    text-align: center;
 }
 
 .boxes {
@@ -21,4 +25,16 @@
     margin: 20px 0!important;
 }
 
+.boxes:checked {
+    background-color: #0088FF!important;
+}
 
+.btn {
+    background-color: #0088FF!important;
+    color: white;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+}
