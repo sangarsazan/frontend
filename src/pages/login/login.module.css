@@ -38,8 +38,8 @@
 .hiddenIcon {
     color: gray;
 }
-input {
-    padding-left: 25px;
-    background: url("src/assets/images/eye-slash.svg") no-repeat left;
-    background-size: 20px;
+/*input {*/
+    /*padding-left: 25px;*/
+    /*background: url("src/assets/images/eye-slash.svg") no-repeat left;*/
+    /*background-size: 20px;*/
 }
