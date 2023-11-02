@@ -6,7 +6,12 @@
 @font-face {
     font-family: 'secondaryFonte';
     src: local(''),
-    url('../assets/fonts/Yekan Bakh EN 04 Regular (1).woff') format('woff2');
+    url('../assets/fonts/Yekan Bakh EN 06 Bold (1).woff') format('woff2');
+}
+
+body {
+    font-family: mainFont;
+    font-weight: 700;
 }
 /*@font-face {*/
 /*    font-family: 'secondaryFonte';*/

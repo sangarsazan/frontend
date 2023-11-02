@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31a87a71-d75b-477e-87e3-ea392c3165e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/modal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/modal/modal.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/README.md" beforeDir="false" />
@@ -27,8 +24,7 @@
       <change beforePath="$PROJECT_DIR$/myapp/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/reportWebVitals.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
