@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'mainFont';
+    src: local(''),
+    url('../assets/fonts/Yekan Bakh EN 04 Regular (1).woff') format('woff2');
+}
+@font-face {
+    font-family: 'secondaryFonte';
+    src: local(''),
+    url('../assets/fonts/Yekan Bakh EN 04 Regular (1).woff') format('woff2');
+}
+/*@font-face {*/
+/*    font-family: 'secondaryFonte';*/
+/*    src: local(''),*/
+/*    url('../assets/fonts/') format('woff2');*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'mainFont';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    src: local('Open Sans'), local('OpenSans'), url('../assets/fonts/IRAN-Sans.ttf') format('woff2');*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'mainFont';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../assets/fonts/IRAN-Sans.ttf') format('woff2');*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'mainFont';*/
+/*    font-style: italic;*/
+/*    font-weight: 400;*/
+/*    src: local('Open Sans Italic'), local('OpenSans-Italic'), url('../assets/fonts/IRAN-Sans.ttf') format('woff2');*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'mainFont';*/
+/*    font-style: italic;*/
+/*    font-weight: 700;*/
+/*    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('../assets/fonts/IRAN-Sans.ttf') format('woff2');*/
+/*}*/
