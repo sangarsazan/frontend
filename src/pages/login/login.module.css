@@ -38,47 +38,8 @@
 .hiddenIcon {
     color: gray;
 }
-
-
-
-
-
-
-
-
-/*!**!*/
-/*body {*/
-/*    height: 100vh;*/
-/*}*/
-/*h1{*/
-/*    font-weight: bold;*/
-/*}*/
-
-
-/*.btnForward:hover{*/
-/*    color: black;*/
-/*    border-radius: 100%;*/
-/*    width: 4rem;*/
-/*    height: 4rem;*/
-/*}*/
-
-/*.button {*/
-/*    background-color: var(--lightBlue);*/
-/*    color: white;*/
-/*    margin: 3.125rem 0 0 0;*/
-/*}*/
-
-/*.phone {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    padding: 2.125rem 0 1rem 0;*/
-/*    text-align: left;*/
-
-/*}*/
-
-/*.h5 {*/
-/*    text-align: center;*/
-/*}*/
-/*.input {*/
-/*    text-align: center;*/
-/*}*/
+input {
+    padding-left: 25px;
+    background: url("src/assets/images/eye-slash.svg") no-repeat left;
+    background-size: 20px;
+}
