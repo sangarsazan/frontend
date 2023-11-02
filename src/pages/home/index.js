@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPowerOff, faMagnifyingGlass, faBars } from '@fortawesome/free-solid-svg-icons'
 import Modal from '../../components/modal'
-// import AppHeader from '../../components/AppHeader'
+import AppHeader from '../../components/AppHeader/AppHeader'
 
 
 // import Slider from '../../components/slider/slider'
@@ -33,13 +33,21 @@ const HomePage = () => {
                 {/*    </div>*/}
                 {/*    <Modal show={modal} />*/}
                 <div className={Styles.header}>
-                    {/*<AppHeader/>*/}
+                    <AppHeader/>
                 </div>
-                <div className={Styles.circleWrapper}>
-                    <div className={Styles.circle}></div>
-                    <div className={Styles.circle}></div>
-                    <div className={Styles.circle}></div>
-                    <div className={Styles.circle}></div>
+                <div className={Styles.circleGroupWrapper}>
+                    <div className={Styles.circleWrapper}>
+                        <button className={Styles.circle}></button>
+                    </div>
+                    <div className={Styles.circleWrapper}>
+                        <button className={Styles.circle}></button>
+                    </div>
+                    <div className={Styles.circleWrapper}>
+                        <button className={Styles.circle}></button>
+                    </div>
+                    <div className={Styles.circleWrapper}>
+                        <button className={Styles.circle}></button>
+                    </div>
                 </div>
 
 
@@ -54,19 +62,19 @@ const HomePage = () => {
                     </button>
                 </div>
 
-                {/*<div className={Styles.sliderWrapper}>*/}
-                {/*    <Slider className={Styles.slider} {...settings}>*/}
-                {/*        {dataSlider.map((obj) => {*/}
-                {/*            return (*/}
-                {/*                <div className={Styles.sliderItem}>*/}
-                {/*                    <img*/}
-                {/*                        src={obj}*/}
-                {/*                    />*/}
-                {/*                </div>*/}
-                {/*            )*/}
-                {/*        })}*/}
-                {/*    </Slider>*/}
-                {/*</div>*/}
+                <div className={Styles.sliderWrapper}>
+                    <Slider className={Styles.slider} {...settings}>
+                        {dataSlider.map((obj) => {
+                            return (
+                                <div className={Styles.sliderItem}>
+                                    <img
+                                        src={obj}
+                                    />
+                                </div>
+                            )
+                        })}
+                    </Slider>
+                </div>
             </div>
             <Appbar/>
         </>
