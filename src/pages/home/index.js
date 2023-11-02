@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPowerOff, faMagnifyingGlass, faBars } from '@fortawesome/free-solid-svg-icons'
 import Modal from '../../components/modal'
+// import AppHeader from '../../components/AppHeader'
 
 
 // import Slider from '../../components/slider/slider'
@@ -32,9 +33,7 @@ const HomePage = () => {
                 {/*    </div>*/}
                 {/*    <Modal show={modal} />*/}
                 <div className={Styles.header}>
-                    <FontAwesomeIcon icon={faBars} className={Styles.hamburMenu}/>
-                    <h2>پاکار</h2>
-                    <div></div>
+                    {/*<AppHeader/>*/}
                 </div>
                 <div className={Styles.circleWrapper}>
                     <div className={Styles.circle}></div>

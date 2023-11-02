@@ -16,10 +16,11 @@
     justify-content: space-around;
 }
 .circle {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
-    background-color: #0088FF;
+    background-image: url("../../assets/images/banner-bmi.png");
+    background-size: cover;
 }
 .sliderWrapper {
     width: 100%;

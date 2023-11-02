@@ -24,7 +24,8 @@
       <change beforePath="$PROJECT_DIR$/myapp/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/reportWebVitals.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
