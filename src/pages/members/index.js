@@ -3,10 +3,12 @@ import Appbar from "../../components/Appbar/Appbar";
 import Styles from "../home/home.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMagnifyingGlass, faPowerOff} from "@fortawesome/free-solid-svg-icons";
+import AppHeader from "../../components/AppHeader/AppHeader";
 
 const Index = () => {
     return (
         <div>
+            <AppHeader/>
             <div className={Styles.wrapperButton}>
                 <div>
                     <p>موتورت رو روشن کن</p>

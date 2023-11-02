@@ -1,11 +1,6 @@
 import {Outlet} from "react-router-dom";
 import MenuLink from "./MenuLink";
 import Styles from "./appbar.module.css"
-import HomeIcon from '@mui/icons-material/Home';
-import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
-import GroupsIcon from '@mui/icons-material/Groups';
-import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faComments, faHouse, faUserGear, faUsers} from '@fortawesome/free-solid-svg-icons'
 
 
