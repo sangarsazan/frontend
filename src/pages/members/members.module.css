@@ -1,0 +1,34 @@
+.wrapperHeader {
+    /*background-color: green!important;*/
+    width: 92%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    margin: 4%;
+    justify-content: space-around;
+}
+
+.buttonLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    margin: .5rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background-color: var(--lightBlue);
+}
+
+.wrapper {
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 86%;
+    height: 7rem;
+    box-shadow: 0 0 1px 0px black;
+    border-radius: 3px;
+    margin: 7%;
+}
