@@ -13,15 +13,19 @@
 .slider {
     width: 100%;
     height: 100%;
+
+
 }
 
 .sliderItem {
     width: 100%;
+
 }
 
 .sliderItem img {
     width: 100%;
     height: auto;
+
 }
 
 .buttonRight, .buttonLeft {
@@ -40,10 +44,9 @@
     align-items: center;
     justify-content: center;
 }
-p {
-    font-size: xx-large;
-    font-weight: bolder;
-    color: #022554;
+.icon {
+    margin-bottom: .5rem;
+    font-size: 2rem;
 }
 .buttonLeft {
     background-color: var(--lightBlue);

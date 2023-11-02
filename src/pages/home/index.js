@@ -18,6 +18,17 @@ const HomePage = () => {
     };
     return (
         <div className={Styles.wrapper}>
+            <div className={Styles.wrapperButton}>
+                <button className={Styles.buttonRight}>
+                    <FontAwesomeIcon className={Styles.icon} icon={faPowerOff} />
+                    <span>آماده نیستم!</span>
+                </button>
+                <button className={Styles.buttonLeft}>
+                    <FontAwesomeIcon className={Styles.icon} icon={faMagnifyingGlass} />
+                    <span>بررسی اطراف</span>
+                </button>
+            </div>
+
             <div className={Styles.sliderWrapper}>
                 <Slider className={Styles.slider} {...settings}>
                     {dataSlider.map((obj) => {
@@ -31,19 +42,8 @@ const HomePage = () => {
                     })}
                 </Slider>
             </div>
-            <div className={Styles.wrapperButton}>
-                <button className={Styles.buttonRight}>
-                    <FontAwesomeIcon icon={faPowerOff} />
-                    <span>آماده نیستم!</span>
-                </button>
-                <button className={Styles.buttonLeft}>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
-                    <span>بررسی اطراف</span>
-                </button>
-            </div>
-            <div className={Styles.image}>
-                <Slider/>
-            </div>
+
+
         </div>
     );
 };

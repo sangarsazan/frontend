@@ -1,13 +1,18 @@
 @font-face {
     font-family: 'mainFont';
     src: local(''),
-    url('../assets/fonts/PEYDA-REGULAR.TTF') format('woff2');
+    url('../assets/fonts/Yekan Bakh EN 04 Regular (1).woff') format('woff2');
 }
 @font-face {
     font-family: 'secondaryFonte';
     src: local(''),
-    url('../assets/fonts/PEYDA-BLACK.TTF') format('woff2');
+    url('../assets/fonts/Yekan Bakh EN 04 Regular (1).woff') format('woff2');
 }
+/*@font-face {*/
+/*    font-family: 'secondaryFonte';*/
+/*    src: local(''),*/
+/*    url('../assets/fonts/') format('woff2');*/
+/*}*/
 /*@font-face {*/
 /*    font-family: 'mainFont';*/
 /*    font-style: normal;*/
