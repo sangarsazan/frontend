@@ -45,8 +45,8 @@ const LoginPage = () => {
                 </div>
                 <Input name={'phoneNumber'} className={Styles.input} type={'number'} placeholder={'09904633008'}/>
                 <Input name={'password'} className={Styles.input} type={'password'} placeholder={'**********'}/>
-                <a className={Styles.a} href={"#"}>«راهنمای نرم افزار»</a>
                 <Button onClick={HandleSubmit} className={Styles.button} text={'ورود'}></Button>
+                <a className={Styles.a} href={"#"}>«راهنمای نرم افزار»</a>
             </div>
         </>
     );
