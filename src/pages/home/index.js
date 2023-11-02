@@ -1,27 +1,28 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import BottomNavigation from '@mui/material/BottomNavigation';
-import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import Styles from './home.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-export default function SimpleBottomNavigation() {
-    const [value, setValue] = React.useState(0);
-
+const HomePage = () => {
     return (
-        <Box sx={{ width: 500 }}>
-            <BottomNavigation
-                showLabels
-                value={value}
-                onChange={(event, newValue) => {
-                    setValue(newValue);
-                }}
-            >
-                <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-                <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-                <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
-            </BottomNavigation>
-        </Box>
+        <>
+            <div>
+
+            </div>
+            <div className={Styles.wrapperButton}>
+                <button>
+
+                    <span>آماده نیستم!</span>
+                </button>
+                <button>
+
+                    <span>بررسی اطراف</span>
+                </button>
+            </div>
+            <div>
+                <img src={require('../../assets/images/banner-bmi.png')}/>
+            </div>
+        </>
     );
-}
+};
+
+export default HomePage;
