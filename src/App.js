@@ -7,7 +7,7 @@ import SignupPage from "./pages/signup";
 import SplashScreen from './pages/splashScreen'
 import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
 import SportPage from "./pages/sports";
-import MembersPage from "./pages/members/membersPage";
+import Index from "./pages/members";
 import HomePage from "./pages/home";
 function App () {
   return (
@@ -19,7 +19,7 @@ function App () {
                       <Route path="/login" element={<LoginPage/>}/>
                       <Route path="/signUp" element={<SignupPage/>}/>
                       <Route path="/sports" element={<SportPage/>}/>
-                      <Route path="/members" element={<MembersPage/>}/>
+                      <Route path="/members" element={<Index/>}/>
                       <Route path="/home" element={<HomePage/>}/>
 
                   </Routes>
