@@ -4,8 +4,6 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ButtonArrow from "@mui/material/Button";
 import Button from "../../components/button";
 import Input from '../../components/input';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faEyeSlash} from '@fortawesome/free-solid-svg-icons'
 
 
 const LoginPage = () => {

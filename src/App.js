@@ -2,10 +2,11 @@ import './styles/font.css'
 import './styles/global.css'
 import './styles/variable.css'
 import StartPage from "./pages/start";
-import LoginPage from "./pages/login/login";
-import SignupPage from "./pages/signup/signup";
+import LoginPage from "./pages/login";
+import SignupPage from "./pages/signup";
 import SplashScreen from './pages/splashScreen'
 import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
+import SportPage from "./pages/sports";
 
 
 function App () {
@@ -17,6 +18,8 @@ function App () {
                       <Route path='/start' element={<StartPage/>}/>
                       <Route path="/login" element={<LoginPage/>}/>
                       <Route path="/signUp" element={<SignupPage/>}/>
+                      <Route path="/sports" element={<SportPage/>}/>
+
                   </Routes>
               </Router>
           </div>

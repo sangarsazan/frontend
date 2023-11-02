@@ -1,0 +1,24 @@
+* {
+    font-family: mainFont!important;
+}
+.title {
+    color: #022554;
+}
+
+.caption {
+    color: #757575
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    width: 80%;
+    background-color: #d7d7d7;
+    border-radius: 15px;
+    margin: 20px 0!important;
+}
+
+

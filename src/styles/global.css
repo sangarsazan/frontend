@@ -1,7 +1,7 @@
 * {
 }
 html{
-    font-family: mainFont;
+    font-family: mainFont!important;
     font-size: 3.5vw;
 }
 body {
