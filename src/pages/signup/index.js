@@ -1,9 +1,12 @@
 import React from 'react';
+import Styles from './signup.module.css';
+import StepBar from '../../components/stepBar';
+
 
 const SignupPages = () => {
     return (
-        <div>
-            <input />
+        <div className={Styles.container}>
+            <StepBar/>
         </div>
     );
 };
