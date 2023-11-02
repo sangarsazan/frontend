@@ -8,4 +8,7 @@
     cursor: pointer;
     text-align: center;
     transition: all .1s;
+    margin: 1rem;
+    font-size: 1.2rem;
+
 }

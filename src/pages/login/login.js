@@ -1,10 +1,12 @@
 import React from 'react';
-import {Link} from "@mui/material";
 import Styles from "./login.module.css";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ButtonArrow from "@mui/material/Button";
 import Button from "../../components/button";
 import Input from '../../components/input';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faEyeSlash} from '@fortawesome/free-solid-svg-icons'
+
 
 const LoginPage = () => {
     return (
@@ -15,11 +17,9 @@ const LoginPage = () => {
                     <h1>خوش برگشتی!</h1>
                     <h5>برای ورود ، اطلاعات زیر را وارد کنید</h5>
                 </div>
-                <Input className={Styles.input} type={'fields'}/>
-                <Input className={Styles.input}/>
-
-                <Button className={Styles.button} text={'ورود'} sx={{width: ".5rem"}}></Button>
-                <Link href="/" underline="always" style={{marginRight: "4.8rem", marginTop: "2rem"}}>رمز عبورم رو فراموش کردم</Link>
+                <Input className={Styles.input} type={'number'} placeholder={'09904633008'}/>
+                <Input className={Styles.input} type={'password'} placeholder={'**********'}/>
+                <Button className={Styles.button} text={'ورود'}></Button>
             </div>
         </>
     );

@@ -3,6 +3,11 @@
     src: local(''),
     url('../assets/fonts/PEYDA-REGULAR.TTF') format('woff2');
 }
+@font-face {
+    font-family: 'secondaryFonde';
+    src: local(''),
+    url('../assets/fonts/PEYDA-BLACK.TTF') format('woff2');
+}
 /*@font-face {*/
 /*    font-family: 'mainFont';*/
 /*    font-style: normal;*/

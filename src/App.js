@@ -7,6 +7,7 @@ import SignupPage from "./pages/signup/signup";
 import SplashScreen from './pages/splashScreen'
 import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
 
+
 function App () {
   return (
           <div className="App">
