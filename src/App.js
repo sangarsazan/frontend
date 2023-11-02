@@ -1,18 +1,19 @@
-import StartPage from "./pages/start";
-import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
-import LoginPage from "./pages/start/login/login";
+import './styles/font.css'
 import './styles/global.css'
 import './styles/variable.css'
-import './styles/font.css'
-import {createTheme, ThemeProvider} from "@mui/system";
+import StartPage from "./pages/start";
+import LoginPage from "./pages/start/login/login";
+import SignupPage from "./pages/start/signup/signup";
+import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
 
-function App() {
+function App () {
   return (
           <div className="App">
               <Router>
                   <Routes>
                       <Route path='/start' element={<StartPage/>}/>
                       <Route path="/login" element={<LoginPage/>}/>
+                      <Route path="/signUp" element={<SignupPage/>}/>
                   </Routes>
               </Router>
           </div>
