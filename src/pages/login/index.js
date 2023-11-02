@@ -1,15 +1,16 @@
 import React from 'react';
 import Styles from "./login.module.css";
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import ButtonArrow from "@mui/material/Button";
+// import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import ButtonArrow from "../../components/backArrow";
 import Button from "../../components/button";
 import Input from '../../components/input';
+import BackArrow from "../../components/backArrow";
 
 
 const LoginPage = () => {
     return (
         <>
-            <ButtonArrow className={Styles.btnForward} sx={{mt:1.4 ,}}><ArrowForwardIcon fontSize="medium"/></ButtonArrow>
+            <BackArrow/>
             <div className={Styles.wrapper}>
                 <div className={Styles.hWrapper}>
                     <h1>خوش برگشتی!</h1>
