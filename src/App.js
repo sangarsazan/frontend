@@ -9,6 +9,7 @@ import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
 import SportPage from "./pages/sports";
 import Index from "./pages/members";
 import HomePage from "./pages/home";
+import Services from "./pages/Services";
 import ChatsPage from "./pages/chats";
 import Members from "./pages/members";
 import AppHeader from "./components/AppHeader/AppHeader";
@@ -24,6 +25,7 @@ function App () {
                       <Route path="/sports" element={<SportPage/>}/>
                       <Route path="/members" element={<Members/>}/>
                       <Route path="/home" element={<HomePage/>}/>
+                      <Route path="/services" element={<Services/>}/>
                       <Route path="/chat" element={<ChatsPage/>}/>
                       <Route path="/m" element={<AppHeader/>}/>
 
