@@ -1,12 +1,7 @@
-<<<<<<< Updated upstream
+
+.wrapper1, .wrapper2, .wrapper3
+,.wrapper1, .wrapper2 ,
 .wrapper1, .wrapper2, .wrapper3 {
-=======
-<<<<<<< HEAD
-.wrapper1, .wrapper2 {
-=======
-.wrapper1, .wrapper2, .wrapper3 {
->>>>>>> 6236805d722b0621e7b99c49159bd8eaa8436088
->>>>>>> Stashed changes
     display: flex;
     flex-direction: row;
     justify-content: center;
