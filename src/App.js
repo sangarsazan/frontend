@@ -27,15 +27,9 @@ function App () {
                       <Route path="/home" element={<HomePage/>}/>
                       <Route path="/services" element={<Services/>}/>
                       <Route path="/chat" element={<ChatsPage/>}/>
-<<<<<<< Updated upstream
                       <Route path="/challenge" element={<Challenge/>}/>
-=======
-<<<<<<< HEAD
-                      <Route path="/challenge" element={Challenge/>}/>
-=======
                       <Route path="/challenge" element={<Challenge/>}/>
->>>>>>> 6236805d722b0621e7b99c49159bd8eaa8436088
->>>>>>> Stashed changes
+                      <Route path="/challenge" element={<Challenge/>}/>
 
                   </Routes>
               </Router>
