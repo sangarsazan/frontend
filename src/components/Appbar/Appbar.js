@@ -14,8 +14,6 @@ const Appbar = () => {
                     <MenuLink iconName={faHouse} to="/home">خانه</MenuLink>
                     <MenuLink iconName={faComments} to="/Challenge">چالش ها</MenuLink>
                     <MenuLink iconName={faUserGear} to="/profile">پروفایل</MenuLink>
-                    <MenuLink iconName={faUsers} to="/members">کاربران</MenuLink>
-                    <MenuLink iconName={faCircleQuestion} to="/profile">چالش</MenuLink>
                 </nav>
             </div>
             <Outlet/>
