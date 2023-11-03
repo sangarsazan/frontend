@@ -16,26 +16,26 @@ import Challenge from "./pages/challenge";
 import ProfilePage from "./pages/profile";
 import NotCreated from "./pages/premium/NotCreated";
 function App () {
-  return (
-          <div className="App">
-              <Router>
-                  <Routes>
-                      <Route path='/splashScreen' element={<SplashScreen/>}/>
-                      <Route path='/start' element={<StartPage/>}/>
-                      <Route path="/login" element={<LoginPage/>}/>
-                      <Route path="/signUp" element={<SignupPage/>}/>
-                      <Route path="/sports" element={<SportPage/>}/>
-                      <Route path="/members" element={<Members/>}/>
-                      <Route path="/" element={<HomePage/>}/>
-                      <Route path="/services" element={<Services/>}/>
-                      <Route path="/chat" element={<ChatsPage/>}/>
-                      <Route path="/challenge" element={<Challenge/>}/>
-                      <Route path="/profile" element={<ProfilePage/>}/>
-                      <Route path="/notCreated" element={<NotCreated/>}/>
-                  </Routes>
-              </Router>
-          </div>
-  );
+    return (
+        <div className="App">
+            <Router>
+                <Routes>
+                    <Route exact path='/' element={<StartPage/>}/>
+                    <Route path='/splashScreen' element={<SplashScreen/>}/>
+                    <Route path="/home" element={<HomePage/>}/>
+                    <Route path="/login" element={<LoginPage/>}/>
+                    <Route path="/signUp" element={<SignupPage/>}/>
+                    <Route path="/sports" element={<SportPage/>}/>
+                    <Route path="/members" element={<Members/>}/>
+                    <Route path="/services" element={<Services/>}/>
+                    <Route path="/chat" element={<ChatsPage/>}/>
+                    <Route path="/challenge" element={<Challenge/>}/>
+                    <Route path="/profile" element={<ProfilePage/>}/>
+                    <Route path="/notCreated" element={<NotCreated/>}/>
+                </Routes>
+            </Router>
+        </div>
+    );
 }
 
 export default App;

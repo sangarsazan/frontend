@@ -1,6 +1,14 @@
 import React from 'react';
+import {useNavigate} from "react-router-dom"
 import Styles from './splashScreen.module.css'
-const splashScreen = () => {
+
+const SplashScreen = () => {
+    const navigate = useNavigate();
+
+    React.useEffect(() => {
+        setTimeout(()=> navigate('/'), 100)
+    }, []);
+
     return (
         <div className={Styles.backGround}>
             
@@ -8,4 +16,4 @@ const splashScreen = () => {
     );
 };
 
-export default splashScreen;
+export default SplashScreen;

@@ -45,7 +45,7 @@ const SportPage = () => {
             </div>
 
             <div className={Styles.btnWrapper}>
-                <NavLink to={'../'}>
+                <NavLink to='/home'>
                     <Button className={Styles.btn} text={"دیگه تمومه!"}/>
                 </NavLink>
             </div>

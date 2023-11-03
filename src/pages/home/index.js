@@ -8,10 +8,10 @@ import AppHeader from '../../components/AppHeader/AppHeader'
 // import Slider from '../../components/slider/slider'
 import Slider from "react-slick";
 import dataSlider from "../../components/slider/dataSlider";
+import Appbar from "../../components/Appbar/Appbar";
 import Styles from './home.module.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Appbar from "../../components/Appbar/Appbar";
 
 
 const HomePage = () => {
