@@ -28,6 +28,8 @@ function App () {
                       <Route path="/services" element={<Services/>}/>
                       <Route path="/chat" element={<ChatsPage/>}/>
                       <Route path="/challenge" element={<Challenge/>}/>
+                      <Route path="/challenge" element={<Challenge/>}/>
+                      <Route path="/challenge" element={<Challenge/>}/>
 
                   </Routes>
               </Router>

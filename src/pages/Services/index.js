@@ -11,14 +11,21 @@ const Services = () => {
                 <botton>بررسی اطراف</botton>
                 <botton>رویداد ها</botton>
             </div>
+
             <div className={Styles.wrapper2}>
+                <botton>مشاوره</botton>
+                <botton>دوره های آموزشی</botton>
+            </div>
+            <div>
                 <botton>مشاوره سلامت</botton>
                 <botton>دوره های آموزشی</botton>
             </div>
+            
             <div className={Styles.wrapper3}>
                 <botton>محاسبه BMI</botton>
                 <botton>فروشگاه تجهیزات</botton>
             </div>
+
             <Appbar/>
         </div>
     );
