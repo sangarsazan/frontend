@@ -6,7 +6,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 const BackArrow = () => {
     return (
         <div>
-            <ButtonArrow className={Styles.btnForward} sx={{mt:1.4 ,}}><ArrowForwardIcon fontSize="medium"/></ButtonArrow>
+            <ButtonArrow className={Styles.btnForward} sx={{mt:1.4}}><ArrowForwardIcon fontSize="medium"/></ButtonArrow>
         </div>
     );
 };

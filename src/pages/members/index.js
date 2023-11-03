@@ -2,10 +2,10 @@ import React from 'react';
 import Appbar from "../../components/Appbar/Appbar";
 import Styles from "./members.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faMagnifyingGlass, faPowerOff} from "@fortawesome/free-solid-svg-icons";
+import {faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons";
 import AppHeader from "../../components/AppHeader/AppHeader";
 
-const Index = () => {
+const Members = () => {
     return (
         <div>
             <AppHeader/>
@@ -21,14 +21,82 @@ const Index = () => {
                 </div>
             </div>
             <div>
-                <p className={Styles.capthionP}>با کدوم همسفر ورزش میکنی جووون دل؟!</p>
+                <p className={Styles.capthion}>با کدوم همسفر ورزش میکنی جووون دل؟!</p>
             </div>
-            <div className={Styles.wrapper}>
-                <h2 className={Styles.title}>ورزشیا</h2>
+            <div className={Styles.Box}>
+                <div className={Styles.circleWrapper}>
+                    <button className={Styles.circle}></button>
+                </div>
+                <div className={Styles.textMember}>
+
+                    <h2>علیرضا دهقانیان</h2>
+
+                    <div>
+                        <span className={Styles.span1}>  دوچرخه سواری  </span>
+                        <span className={Styles.span2}>  کوهنوردی  </span>
+                        <span className={Styles.span3}>   فوتبال </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className={Styles.Box}>
+                <div className={Styles.circleWrapper}>
+                    <button className={Styles.circle}></button>
+                </div>
+                <div className={Styles.textMember}>
+
+                    <h2>علیرضا دهقانیان</h2>
+
+                    <div>
+                        <span className={Styles.span1}>  دوچرخه سواری  </span>
+                        <span className={Styles.span2}>  کوهنوردی  </span>
+                        <span className={Styles.span3}>   فوتبال </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className={Styles.Box}>
+                <div className={Styles.circleWrapper}>
+                    <button className={Styles.circle}></button>
+                </div>
+                <div className={Styles.textMember}>
+
+                    <h2>علیرضا دهقانیان</h2>
+
+                    <div>
+                        <span className={Styles.span1}>  دوچرخه سواری  </span>
+                        <span className={Styles.span2}>  کوهنوردی  </span>
+                        <span className={Styles.span3}>   فوتبال </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className={Styles.Box}>
+                <div className={Styles.circleWrapper}>
+                    <button className={Styles.circle}></button>
+                </div>
+                <div className={Styles.textMember}>
+
+                    <h2>علیرضا دهقانیان</h2>
+
+                    <div>
+                        <span className={Styles.span1}>  دوچرخه سواری  </span>
+                        <span className={Styles.span2}>  کوهنوردی  </span>
+                        <span className={Styles.span3}>   فوتبال </span>
+                    </div>
+
+                </div>
+
             </div>
             <Appbar/>
         </div>
     );
 };
 
-export default Index;
+export default Members;

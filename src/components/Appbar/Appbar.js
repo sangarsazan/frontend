@@ -1,7 +1,7 @@
 import {Outlet} from "react-router-dom";
 import MenuLink from "./MenuLink";
 import Styles from "./appbar.module.css"
-import {faComments, faHouse, faUserGear, faUsers} from '@fortawesome/free-solid-svg-icons'
+import {faCircleQuestion, faComments, faHouse, faUserGear, faUsers} from '@fortawesome/free-solid-svg-icons'
 
 
 const Appbar = () => {
@@ -14,6 +14,8 @@ const Appbar = () => {
                     <MenuLink iconName={faHouse} to="/home">خانه</MenuLink>
                     <MenuLink iconName={faComments} to="/Challenge">چالش ها</MenuLink>
                     <MenuLink iconName={faUserGear} to="/profile">پروفایل</MenuLink>
+                    <MenuLink iconName={faUsers} to="/members">کاربران</MenuLink>
+                    <MenuLink iconName={faCircleQuestion} to="/profile">چالش</MenuLink>
                 </nav>
             </div>
             <Outlet/>
