@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31a87a71-d75b-477e-87e3-ea392c3165e3" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/myapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Appbar/Appbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Appbar/Appbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Appbar/appbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Appbar/appbar.module.css" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/src/pages/Services/Services.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Services/Services.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Services/index.js" afterDir="false" />
     </list>
@@ -43,22 +67,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Merging main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alireza Tech\Documents\GitHub\frontend\public\sliderImages" />
@@ -79,8 +103,12 @@
       <workItem from="1698840953004" duration="6784000" />
       <workItem from="1698848709672" duration="5818000" />
       <workItem from="1698855060244" duration="55537000" />
+<<<<<<< Updated upstream
       <workItem from="1698969505927" duration="10306000" />
       <workItem from="1698982823778" duration="1776000" />
+=======
+      <workItem from="1698969505927" duration="12587000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

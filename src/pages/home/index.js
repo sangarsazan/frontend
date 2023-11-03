@@ -36,17 +36,17 @@ const HomePage = () => {
                     <AppHeader/>
                 </div>
                 <div className={Styles.circleGroupWrapper}>
-                    <div className={Styles.circleWrapper}>
-                        <button className={Styles.circle}></button>
+                    <div className={Styles.circleWrapper+" "+Styles.selected}>
+                        <button className={Styles.circle1+" "+Styles.circle}></button>
                     </div>
                     <div className={Styles.circleWrapper}>
-                        <button className={Styles.circle}></button>
+                        <button className={Styles.circle2+" "+Styles.circle}></button>
                     </div>
                     <div className={Styles.circleWrapper}>
-                        <button className={Styles.circle}></button>
+                        <button className={Styles.circle3+" "+Styles.circle}></button>
                     </div>
                     <div className={Styles.circleWrapper}>
-                        <button className={Styles.circle}></button>
+                        <button className={Styles.circle4+" "+Styles.circle}></button>
                     </div>
                 </div>
 
