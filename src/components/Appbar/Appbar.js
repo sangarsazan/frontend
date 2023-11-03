@@ -9,7 +9,7 @@ const Appbar = () => {
         <>
             <div className={Styles.navWrapper}>
                 <nav className={Styles.nav}>
-                    <MenuLink iconName={faHouse} to="/home">خانه</MenuLink>
+                    <MenuLink iconName={faHouse} to="/">خانه</MenuLink>
                     <MenuLink iconName={faPlus} to="/Services">خدمات</MenuLink>
                     <MenuLink iconName={faWandMagicSparkles} to="/challenge">چالش</MenuLink>
                     <MenuLink iconName={faUserGear} to="/profile">پروفایل</MenuLink>

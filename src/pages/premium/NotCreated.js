@@ -3,18 +3,18 @@ import AppHeader from "../../components/AppHeader/AppHeader";
 import Appbar from "../../components/Appbar/Appbar";
 import Styles from "../chats/chatsPage.module.css";
 import button from "../../components/button";
+import {NavLink} from "react-router-dom";
 
-const challenge = () => {
+const NotCreated = () => {
     return (
         <div>
             <AppHeader/>
             <div className={Styles.vipTextW}>
-                <span className={Styles.vipText}>این قسمت مختص <br/>ورزشیای وی آی پی هه (:</span>
-                <button className={Styles.btn}><span className={Styles.btnSpan}>خرید اشتراک ویژه</span></button>
+                <span className={Styles.vipText}>کرکره این قسمت رو <br/>همین روزا میدیم بالا! (:</span>
+                <NavLink to={'/services'} className={Styles.btn}><span className={Styles.btnSpan}>بازگشت</span></NavLink>
             </div>
-            <Appbar/>
         </div>
     );
 };
 
-export default challenge;
+export default NotCreated;
