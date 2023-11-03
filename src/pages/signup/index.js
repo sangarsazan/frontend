@@ -3,8 +3,14 @@ import Styles from './signup.module.css';
 import StepBar from '../../components/stepBar';
 import Inout from '../../components/input'
 import Button from '../../components/button'
+import {Link} from "@mui/material";
+import {useNavigate} from "react-router-dom";
 
 const SignupPages = () => {
+    const navigate = useNavigate()
+    const handleClick = () => {
+        navigate("/home")
+    }
     return (
         <div className={Styles.container}>
             <StepBar variant="determinate" value={"25"} />
@@ -28,7 +34,9 @@ const SignupPages = () => {
                     <label htmlFor=" female">زن</label>
                 </div>
             </div>
-            <Button text={'ثبت'} className={Styles.button}/>
+            <Link to="/login">
+                <Button text={'ثبت'} className={Styles.button}/>
+            </Link>
         </div>
     );
 };
