@@ -27,7 +27,7 @@ function App () {
                       <Route path="/home" element={<HomePage/>}/>
                       <Route path="/services" element={<Services/>}/>
                       <Route path="/chat" element={<ChatsPage/>}/>
-                      <Route path="/m" element={<AppHeader/>}/>
+                      <Route path="/challenge" element={Challenge/>}/>
 
                   </Routes>
               </Router>

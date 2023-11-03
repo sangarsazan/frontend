@@ -1,5 +1,17 @@
+.wrapper1, .wrapper2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 botton {
-    background-color: #022554;
+    background-color: #0088FF;
     width: 20rem;
-    height: 7;
+    height: 7rem;
+    border-radius: 5px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
