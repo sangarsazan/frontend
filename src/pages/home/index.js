@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPowerOff, faMagnifyingGlass, faBars } from '@fortawesome/free-solid-svg-icons'
 import Modal from '../../components/modal'
@@ -22,16 +22,10 @@ const HomePage = () => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
-    // const [modal, setModal] = useState(false);
-    // const Toggle = () => setModal(!modal);
     return (
         <>
 
             <div className={Styles.wrapper}>
-                {/*    <div>*/}
-                {/*        <button onClick={Toggle}></button>*/}
-                {/*    </div>*/}
-                {/*    <Modal show={modal} />*/}
                 <div className={Styles.header}>
                     <AppHeader/>
                 </div>
