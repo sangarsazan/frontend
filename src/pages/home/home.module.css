@@ -14,6 +14,8 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 1rem;
+
 }
 .circleWrapper {
     border: .3rem solid var(--lightBlue);
@@ -31,6 +33,8 @@
 }
 .sliderWrapper {
     width: 25rem;
+    margin-top: 2rem;
+
 }
 
 .slider {
@@ -53,7 +57,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 4rem;
+    padding: 2.5rem 4rem;
     margin: .5rem;
     border-radius: 2rem;
     border: none;
@@ -61,6 +65,8 @@
 }
 .wrapperButton {
     display: flex;
+    margin-top: 2rem;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }

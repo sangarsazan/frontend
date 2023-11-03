@@ -10,7 +10,7 @@ const ChatsPage = () => {
             <Appbar/>
             <div className={Styles.vipTextW}>
                 <span className={Styles.vipText}>این قسمت مختص <br/>ورزشیای وی آی پی هه (:</span>
-                    <button><span className={Styles.btnSpan}>خرید اشتراک ویژه</span></button>
+                    <button className={Styles.btn}><span className={Styles.btnSpan}>خرید اشتراک ویژه</span></button>
             </div>
         </div>
     );

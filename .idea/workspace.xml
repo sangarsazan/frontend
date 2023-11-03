@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31a87a71-d75b-477e-87e3-ea392c3165e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/README.md" beforeDir="false" />
@@ -25,18 +24,9 @@
       <change beforePath="$PROJECT_DIR$/myapp/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/reportWebVitals.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Appbar/Appbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Appbar/Appbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Appbar/appbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Appbar/appbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/backArrow/backArrow.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/backArrow/backArrow.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/backArrow/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/backArrow/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/chats/chatsPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chats/chatsPage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/chats/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/chats/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/signup/signup.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signup/signup.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +95,7 @@
       <workItem from="1698840953004" duration="6784000" />
       <workItem from="1698848709672" duration="5818000" />
       <workItem from="1698855060244" duration="55537000" />
-      <workItem from="1698969505927" duration="10306000" />
+      <workItem from="1698969505927" duration="11252000" />
     </task>
     <servers />
   </component>
