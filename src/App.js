@@ -9,6 +9,7 @@ import {BrowserRouter as Router , Routes ,Route} from "react-router-dom";
 import SportPage from "./pages/sports";
 import Index from "./pages/members";
 import HomePage from "./pages/home";
+import Services from "./pages/Services";
 function App () {
   return (
           <div className="App">
@@ -21,6 +22,7 @@ function App () {
                       <Route path="/sports" element={<SportPage/>}/>
                       <Route path="/members" element={<Index/>}/>
                       <Route path="/home" element={<HomePage/>}/>
+                      <Route path="/services" element={<Services/>}/>
 
                   </Routes>
               </Router>

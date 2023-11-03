@@ -9,9 +9,10 @@ const Appbar = () => {
         <>
             <div className={Styles.navWrapper}>
                 <nav className={Styles.nav}>
-                    <MenuLink iconName={faHouse} to="/home">خانه</MenuLink>
                     <MenuLink iconName={faComments} to="/chat">گفتگو</MenuLink>
-                    <MenuLink iconName={faUsers} to="/members">کاربران</MenuLink>
+                    <MenuLink iconName={faComments} to="/Services">خدمات</MenuLink>
+                    <MenuLink iconName={faHouse} to="/home">خانه</MenuLink>
+                    <MenuLink iconName={faComments} to="/Challenge">چالش ها</MenuLink>
                     <MenuLink iconName={faUserGear} to="/profile">پروفایل</MenuLink>
                 </nav>
             </div>
