@@ -2,7 +2,7 @@ import React from 'react';
 import Appbar from "../../components/Appbar/Appbar";
 import Styles from "./members.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faMagnifyingGlass, faPowerOff} from "@fortawesome/free-solid-svg-icons";
+import {faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons";
 import AppHeader from "../../components/AppHeader/AppHeader";
 
 const Members = () => {
