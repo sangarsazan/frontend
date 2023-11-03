@@ -12,7 +12,7 @@ import HomePage from "./pages/home";
 import Services from "./pages/Services";
 import ChatsPage from "./pages/chats";
 import Members from "./pages/members";
-import AppHeader from "./components/AppHeader/AppHeader";
+import Challenge from "./pages/challenge";
 function App () {
   return (
           <div className="App">
