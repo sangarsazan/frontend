@@ -1,3 +1,4 @@
 .btnForward {
-
+    justify-content: start!important;
+    padding: 1rem 2rem 0 1rem!important;
 }
