@@ -47,7 +47,7 @@ const LoginPage = () => {
                 <Input name={'phoneNumber'} className={Styles.input} type={'number'} placeholder={'09904633008'}/>
                 <Input name={'password'} className={Styles.input} type={'password'} placeholder={'**********'}/>
                 <NavLink to={'../sports'}>
-                    <Button onClick={HandleSubmit} className={Styles.button} text={'ورود'}></Button>
+                    <Button className={Styles.button} text={'ورود'}></Button>
                 </NavLink>
                 <a className={Styles.a} href={"#"}>«راهنمای نرم افزار»</a>
             </div>

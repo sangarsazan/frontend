@@ -5,6 +5,7 @@ import Styles from "../sports/sports.module.css";
 import {Checkbox, FormControlLabel, LinearProgress} from "@mui/material";
 import Button from "../../components/button";
 import StepBar from "../../components/stepBar";
+import {NavLink} from "react-router-dom";
 
 const SportPage = () => {
     return (
@@ -44,7 +45,9 @@ const SportPage = () => {
             </div>
 
             <div className={Styles.btnWrapper}>
-                <Button className={Styles.btn} text={"دیگه تمومه!"}/>
+                <NavLink to={'../'}>
+                    <Button className={Styles.btn} text={"دیگه تمومه!"}/>
+                </NavLink>
             </div>
         </div>
 

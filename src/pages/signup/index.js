@@ -4,7 +4,7 @@ import StepBar from '../../components/stepBar';
 import Inout from '../../components/input'
 import Button from '../../components/button'
 import {Link} from "@mui/material";
-import {useNavigate} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 
 const SignupPages = () => {
     const navigate = useNavigate()
@@ -34,9 +34,9 @@ const SignupPages = () => {
                     <label htmlFor=" female">زن</label>
                 </div>
             </div>
-            <Link to="/login">
+            <NavLink to="../sports">
                 <Button text={'ثبت'} className={Styles.button}/>
-            </Link>
+            </NavLink>
         </div>
     );
 };
